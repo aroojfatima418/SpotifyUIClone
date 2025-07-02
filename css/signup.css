@@ -1,0 +1,235 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.already {
+    display: flex;
+}
+
+.heading h1 {
+    width: 20vw;
+    font-size: 50px;
+    text-align: center;
+}
+
+.email {
+    width: 20vw;
+    color: white;
+}
+
+.email input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 20vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: white;
+    padding: 0 15px;
+}
+
+.email input:hover {
+    cursor: pointer;
+}
+
+.email input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.email label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password {
+    width: 20vw;
+}
+
+.password input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 20vw;
+    color: white;
+    font-size: 18px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 0 15px;
+}
+
+.password input:hover {
+    cursor: pointer;
+}
+
+.password input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.password label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.eye {
+    position: relative;
+    left: 320px;
+    bottom: 33px;
+}
+
+.eye:hover {
+    cursor: pointer;
+}
+
+.eye_slash {
+    position: relative;
+    left: 320px;
+    bottom: 33px;
+}
+
+.eye_slash:hover {
+    cursor: pointer;
+}
+
+.next {
+    margin-top: 10px;
+    width: 22vw;
+    background-color: rgb(21, 187, 21);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 0;
+    border-radius: 25px;
+}
+
+.next:hover {
+    cursor: pointer;
+    background-color: rgb(89, 242, 89);
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.line {
+    width: 150px;
+    border: 1px solid grey;
+}
+
+.google {
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.google:hover {
+    cursor: pointer;
+    background-color: rgb(28, 25, 25);
+}
+
+.facebook {
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    background-color: rgb(28, 25, 25);
+}
+
+.apple {
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.apple:hover {
+    cursor: pointer;
+    background-color: rgb(28, 25, 25);
+}
+
+.line2 {
+    width: 400px;
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+
+.log,
+.pp,
+.tos {
+    text-decoration: underline;
+}
+.log a{
+    text-decoration: none;
+    color: white;
+}
+
+.log:hover {
+    cursor: pointer;
+}
+
+.pp:hover {
+    cursor: pointer;
+}
+.pp a{
+    text-decoration: none;
+    color: white;
+}
+
+.tos:hover {
+    cursor: pointer;
+}
+.tos a{
+    text-decoration: none;
+    color: white;
+}
+
+.this {
+    width: 25vw;
+    text-align: center;
+}

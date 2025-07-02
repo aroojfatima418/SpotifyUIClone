@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.heading1 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.heading p {
+    font-size: 18px;
+    width: 25vw;
+    text-align: center;
+}
+
+.email {
+    width: 20vw;
+    color: white;
+}
+
+.email input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 20vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    color: white;
+    padding: 0 15px;
+}
+
+.email input:hover {
+    cursor: pointer;
+}
+
+.email label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.need {
+    text-decoration: underline;
+    text-align: start;
+}
+
+.send {
+    margin-top: 10px;
+    width: 22vw;
+    background-color: rgb(21, 187, 21);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 0;
+    border-radius: 25px;
+}
+
+.send:hover {
+    cursor: pointer;
+    background-color: rgb(89, 242, 89);
+}
+
+.pp,
+.tos {
+    text-decoration: underline;
+}
+
+.pp:hover {
+    cursor: pointer;
+}
+.pp a {
+    color: white;
+    text-decoration: underline;
+}
+
+.tos:hover {
+    cursor: pointer;
+}
+.tos a {
+    color: white;
+    text-decoration: underline;
+}
+
+.lower {
+    width: 25vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.need a{
+    color: white;
+    text-decoration: underline;
+}

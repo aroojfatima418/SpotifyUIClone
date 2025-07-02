@@ -1,0 +1,223 @@
+body {
+    background: linear-gradient(rgb(23, 22, 22),rgb(95, 93, 93));
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 0 auto;
+    align-items: center;
+    gap: 15px;
+}
+.heading h1{
+    width: 21vw;
+    font-size: 46px;
+    text-align: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.google {
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.google:hover {
+    cursor: pointer;
+    background-color: rgb(28, 25, 25);
+}
+
+.facebook {
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    background-color: rgb(28, 25, 25);
+}
+
+.apple {
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.apple:hover {
+    cursor: pointer;
+    background-color: rgb(28, 25, 25);
+}
+.email {
+    width: 20vw;
+    color: white;
+}
+
+.email input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 20vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    color: white;
+    padding: 0 15px;
+}
+
+.email input:hover {
+    cursor: pointer;
+}
+
+.email input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.email label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password {
+    width: 20vw;
+}
+
+.password input {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0 15px;
+    width: 20vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+}
+
+.password input:hover {
+    cursor: pointer;
+}
+
+.password input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.password label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.eye {
+    position: relative;
+    left: 320px;
+    bottom: 33px;
+}
+
+.eye:hover {
+    cursor: pointer;
+}
+
+.eye_slash {
+    position: relative;
+    left: 320px;
+    bottom: 33px;
+}
+
+.eye_slash:hover {
+    cursor: pointer;
+}
+.line2 {
+    width: 600px;
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+.login {
+    margin-top: 10px;
+    width: 22vw;
+    background-color: rgb(21, 187, 21);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 0;
+    border-radius: 25px;
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color: rgb(89, 242, 89);
+}
+.forgot, .sigin{
+    text-decoration: underline;
+}
+.forgot a{
+    color: white;
+    text-decoration: none;
+}
+
+.sigin a{
+    color: white;
+    text-decoration: none;
+}
+.noacc{
+    padding: 0 0 30px 0;
+}
+.footer{
+    background-color: black;
+    height: 8vh;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp, .tos{
+    text-decoration: underline;
+}
+.pp:hover {
+    cursor: pointer;
+}
+.pp a{
+    text-decoration: none;
+    color: white;
+}
+
+.tos:hover {
+    cursor: pointer;
+}
+.tos a{
+    text-decoration: none;
+    color: white;
+}
