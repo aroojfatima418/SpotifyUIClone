@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utitlity.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <title>'spotify - Web player : Music for everyone '</title>
+</head>
+
+<body>
+    <div class="container flex_center gap_2">
+        <div class="left">
+            <div class="home flex flexcolumn gap_1">
+                <div class="close"><img class="invert set_width2" src="svgs/close.svg" alt=""></div>
+                <div><a href="./index.html"><img class="invert" src="svgs/logo.svg" alt="logo"></a></div>
+                <div class="flex_center gap_2 color1"><img class="invert set_width" src="svgs/home.svg" alt="home"><a href="./index.html">Home</a></div>
+                <div class="flex_center gap_2 color"><img class="set_width" src="svgs/search.svg" alt="search">Search
+                </div>
+            </div>
+            <div class="library">
+                <div class="librarydecor">
+                    <div class="plussvg flex_center gap_2 size"><img class="set_width2" src="svgs/playlist.svg"
+                            alt="playlist">Your Library</div>
+                    <div class="plus"><img class="set_width" src="svgs/plus-solid (1).svg" alt=""></div>
+                </div>
+                <div class="songlist">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="first_left flex flex_wrap gap_3">
+                    <div><a href="@" target="_blank">legal</a></div>
+                    <div><a href="!" target="_blank">Safety & privacy center</a></div>
+                    <div><a href="$" target="_blank">Privacy policy</a></div>
+                    <div><a href="%" target="_blank">Cookies</a></div>
+                    <div><a href="^" target="_blank">About Ads</a></div>
+                    <div><a href="&" target="_blank">Acessibility</a></div>
+                </div>
+                <div class="cookies" target="_blank"><a href="*">Cookies</a></div>
+                <button class="button_3 flex gap_2"><img class="set_width" src="svgs/globe-solid.svg"
+                        alt="globe">English</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="first_right flex_center justice">
+                <div class="svgs flex gap_1 flex_center_center">
+                    <div class="hamburger"><img class="set_width2 invert" src="svgs/hamburger.svg" alt=""></div>
+                    <div class="lessthan"><img class="set_width3" src="svgs/less-than-solid.svg" alt="less than"></div>
+                    <div class="greaterthan"><img class="set_width3" src="svgs/greater-than-solid.svg"
+                            alt="greater than"></div>
+                </div>
+                <div class="signup">
+                    <a href="./signup.html"><button
+                            class="button_1">Sign up</button></a>
+                    <a href="./login.html"><button class="button_2">Login</button></a>
+                </div>
+            </div>
+            <div class="fifth_right flex_center_center">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songinfo flex_center justice">
+                    <div class="songname"></div>
+                    <div class="songbuttons">
+                        <img id="previous" class="set_width2 invert" src="svgs/prevsong.svg" alt="previous song">
+                        <img id="play" class="set_width2 invert" src="svgs/play.svg" alt="play song">
+                        <img id="next" class="set_width2 invert" src="svgs/nextsong.svg" alt="next song">
+                    </div>
+                    <div class="songtime"></div>
+                    <div class="timevol">
+                        <div class="volume"><img class="invert" src="svgs/volume.svg" alt="fullvolume"></div>
+                        <div class="range">
+                            <input type="range" name="range" id="range">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forth_right">
+                <h1>Popular Artist</h1>
+            </div>
+            <div class="artist flex flex_wrap gap_4">
+                <div data-folder="pritam" class="first_artist flex flexcolumn gap_2">
+                    <div class="play1 flex_center_center"><img class="set_width4" src="svgs/play-solid.svg" alt="play">
+                    </div>
+                    <img src="images/pritam.jpeg" alt="pritam">
+                    <h2>Pritam</h2>
+                </div>
+                <div data-folder="arjit_singh" class="first_artist flex flexcolumn gap_2">
+                    <div class="play2 flex_center_center"><img class="set_width4" src="svgs/play-solid.svg" alt="play">
+                    </div>
+                    <img src="images/arjit singh.jpeg" alt="arjit singh">
+                    <h2>Arjit Singh</h2>
+                </div>
+            </div>
+            <div class="second_right">
+                <h1>Spotify Playlist</h1>
+            </div>
+            <div class="cards flex flex_wrap gap_3">
+                <div data-folder="angry_mood" class="first_card flex flexcolumn gap_2">
+                    <div class="play flex_center_center"><img class="set_width4" src="svgs/play-solid.svg" alt="play">
+                    </div>
+                    <img src="images/angry music.jpeg" alt="Angry Mood">
+                    <h2>Angry Mood</h2>
+                    <p>Calm your anger</p>
+                </div>
+                <div data-folder="Acoustic_music" class="first_card flex flexcolumn gap_2">
+                    <div class="play flex_center_center"><img class="set_width4" src="svgs/play-solid.svg" alt="play">
+                    </div>
+                    <img src="images/acoustic Christmas songs.jpeg" alt="acoustic music">
+                    <h2>Acoustic Christmas Songs</h2>
+                    <p>Have yourself a little cozy christmas..</p>
+                </div>
+            </div>
+            <div class="third_right flex">
+                <div class="company flex flexcolumn gap_2">
+                    <div class="bold"><a target="_blank" href="$">Company</a></div>
+                    <div><a target="_blank" href="$">About</a></div>
+                    <div><a target="_blank" href="$">Jobs</a></div>
+                    <div><a target="_blank" href="$">For The Record</a></div>
+                </div>
+                <div class="communities flex flexcolumn gap_2">
+                    <div class="bold"><a target="_blank" href="$">Communities</a></div>
+                    <div><a target="_blank" href="$">For Artist</a></div>
+                    <div><a target="_blank" href="$">Developers</a></div>
+                    <div><a target="_blank" href="$">Advertising</a></div>
+                    <div><a target="_blank" href="$">Investors</a></div>
+                    <div><a target="_blank" href="$">Vendors</a></div>
+                </div>
+                <div class="usefull_links flex flexcolumn gap_2">
+                    <div class="bold"><a target="_blank" href="$">Useful Links</a></div>
+                    <div><a target="_blank" href="$">Support</a></div>
+                    <div><a target="_blank" href="$">Free Mobile App</a></div>
+                </div>
+                <div class="spotify_plans flex flexcolumn gap_2">
+                    <div class="bold"><a target="_blank" href="$">Spotify Plans</a></div>
+                    <div><a target="_blank" href="$">Premium Individual</a></div>
+                    <div><a target="_blank" href="$">Premium Duo</a></div>
+                    <div><a target="_blank" href="$">premium Family</a></div>
+                    <div><a target="_blank" href="$">Premium Student</a></div>
+                    <div><a target="_blank" href="$">Spotify Free</a></div>
+                </div>
+                <div class="logos flex gap_3">
+                    <a target="_blank" href="$"><img class="set_width" src="svgs/instagram-brands-solid.svg"
+                            alt="instagram"></a>
+                    <a target="_blank" href="$"><img class="set_width" src="svgs/twitter-brands-solid (1).svg"
+                            alt="twitter"></a>
+                    <a target="_blank" href="$"><img class="set_width" src="svgs/facebook-brands-solid.svg"
+                            alt="facebook"></a>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footer">&copy; 2024 Spotify AB</div>
+        </div>
+    </div>
+    <div class="footer1 flex_center ">
+        <div class="content flex flexcolumn gap_2">
+            <p class="bold">Preview of Spotify</p>
+            <p class="para">Sign Up to get unlimited songs and podcasts with ocassional ads. No credit card needed</p>
+        </div>
+        <a href="./signup.html"><button class="button_4">sign up free</button></a>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
